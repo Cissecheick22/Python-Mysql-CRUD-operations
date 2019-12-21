@@ -1,5 +1,8 @@
 import MySQLdb
 
+
+#author: Vishal giri
+
 db =  MySQLdb.connect(host="localhost", user ="root",passwd="root",db="testpythonsql")
 
 cursor =  db.cursor()
